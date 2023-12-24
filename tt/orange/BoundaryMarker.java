@@ -1,4 +1,6 @@
 public class BoundaryMarker {
+    // write a function that can identify the boundary of a 2D array of 0s and 1s and mark this boundary with 'X'. 
+    // solution : find the cell that is next to 1 and next either boundary or 0 then change to 'X'
     public void markBoundary(char[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0) return;
 
